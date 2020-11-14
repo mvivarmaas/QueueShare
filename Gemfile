@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.2'
 
+# figaro -> hides api keys
+gem 'figaro'
 # rspotify
 gem 'rspotify'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

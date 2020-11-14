@@ -38,3 +38,5 @@ yarn-debug.log*
 # Project exclude paths
 /log/
 /tmp/
+# Ignore application configuration
+/config/application.yml
