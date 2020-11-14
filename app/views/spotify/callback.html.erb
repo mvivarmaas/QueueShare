@@ -1,0 +1,12 @@
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <%if @is_nil %>
+      <h1 class="display-4">There is currently no player defined</h1>
+    <%elsif @is_playing %>
+      <h2 class="display-4"><%=@display_name %> is currently playing: <%=@currently_playing.name %></h2>
+    <%else%>
+    <h2 class="display-4"><%=@display_name %> is not playing anything.</h2>
+    <%end %>
+  </div>
+</div>
