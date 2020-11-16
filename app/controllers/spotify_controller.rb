@@ -11,5 +11,9 @@ class SpotifyController < ApplicationController
       @display_name = host.display_name
     end
   end
+
+  def playlist
+
+  end
 end
 
